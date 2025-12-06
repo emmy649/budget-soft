@@ -1,0 +1,20 @@
+{
+  "name": "Budget Soft",
+  "short_name": "Budget Soft",
+  "start_url": "/budget-soft/",
+  "display": "standalone",
+  "background_color": "#f6f3ee",
+  "theme_color": "#3e4d42",
+  "icons": [
+    {
+      "src": "/budget-soft/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/budget-soft/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
