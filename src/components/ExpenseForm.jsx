@@ -53,7 +53,7 @@ export default function ExpenseForm({ categories, onAdd, total }) {
             justifyContent: "center",
           }}
          >
-           {total.toFixed(2)} лв
+           {total.toFixed(2)} EUR
          </div>
 
       </div>
@@ -71,7 +71,7 @@ export default function ExpenseForm({ categories, onAdd, total }) {
           </div>
 
           <div>
-            <label className="label">Сума (лв)</label>
+            <label className="label">Сума (EUR)</label>
             <input
               type="number"
               step="0.01"
