@@ -33,7 +33,7 @@ export default function CategorySummary({ expenses, onCategoryClick }) {
               <div className="category-name">{cat}</div>
               <div>
                 <span className="category-amount">
-                  {info.sum.toFixed(2)} лв
+                  {info.sum.toFixed(2)} EUR
                 </span>
                 <span
                   style={{
