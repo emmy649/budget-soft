@@ -212,7 +212,7 @@ function AnalyticsPage({
                     <span>{formatDisplayDate(e.date)}</span>
                     <span
                       style={{ fontWeight: 600 }}
-                    >{`${Number(e.amount).toFixed(2)} лв`}</span>
+                    >{`${Number(e.amount).toFixed(2)} EUR`}</span>
                   </div>
                   {e.note && (
                     <div
