@@ -26,7 +26,7 @@ export default function ExpenseList({ expenses, onDelete }) {
             <div key={e.id} className="expense-row">
               <span>{formatDisplayDate(e.date)}</span>
               <span className="expense-amount">
-                {Number(e.amount).toFixed(2)} лв
+                {Number(e.amount).toFixed(2)} EUR
               </span>
               <span>
                 <span className="badge">{e.category}</span>{" "}
